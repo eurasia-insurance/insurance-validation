@@ -14,10 +14,10 @@ public class ValidInsuranceRequestTypeConstraintValidator
     private ValidationMode mode;
 
     @Override
-    public void initialize(ValidInsuranceRequestType a) {
-	this.permited = a.permited();
-	this.denied = a.denied();
-	this.mode = a.mode();
+    public void initialize(final ValidInsuranceRequestType a) {
+	permited = a.permited();
+	denied = a.denied();
+	mode = a.mode();
     }
 
     @Override

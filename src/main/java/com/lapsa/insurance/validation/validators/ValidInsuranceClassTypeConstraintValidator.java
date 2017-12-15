@@ -10,11 +10,11 @@ public class ValidInsuranceClassTypeConstraintValidator
 	implements ConstraintValidator<ValidInsuranceClassType, InsuranceClassType> {
 
     @Override
-    public void initialize(ValidInsuranceClassType constraintAnnotation) {
+    public void initialize(final ValidInsuranceClassType constraintAnnotation) {
     }
 
     @Override
-    public boolean isValid(InsuranceClassType value, ConstraintValidatorContext context) {
+    public boolean isValid(final InsuranceClassType value, final ConstraintValidatorContext context) {
 	// no invalid values
 	return true;
     }

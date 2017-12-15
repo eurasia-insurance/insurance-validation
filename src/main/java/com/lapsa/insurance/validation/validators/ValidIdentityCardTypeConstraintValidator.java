@@ -12,15 +12,15 @@ public class ValidIdentityCardTypeConstraintValidator
     private IdentityCardType[] invalidValues;
 
     @Override
-    public void initialize(ValidIdentityCardType constraintAnnotation) {
-	this.invalidValues = constraintAnnotation.invalidValues();
+    public void initialize(final ValidIdentityCardType constraintAnnotation) {
+	invalidValues = constraintAnnotation.invalidValues();
     }
 
     @Override
-    public boolean isValid(IdentityCardType value, ConstraintValidatorContext context) {
+    public boolean isValid(final IdentityCardType value, final ConstraintValidatorContext context) {
 	if (value == null)
 	    return true;
-	for (IdentityCardType i : invalidValues)
+	for (final IdentityCardType i : invalidValues)
 	    if (i.equals(value))
 		return false;
 	return true;

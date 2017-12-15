@@ -12,15 +12,15 @@ public class ValidInsuranceExpirienceClassConstraintValidator
     private InsuredExpirienceClass[] invalidTypes;
 
     @Override
-    public void initialize(ValidInsuranceExpirienceClass constraintAnnotation) {
-	this.invalidTypes = constraintAnnotation.invalidValues();
+    public void initialize(final ValidInsuranceExpirienceClass constraintAnnotation) {
+	invalidTypes = constraintAnnotation.invalidValues();
     }
 
     @Override
-    public boolean isValid(InsuredExpirienceClass value, ConstraintValidatorContext context) {
+    public boolean isValid(final InsuredExpirienceClass value, final ConstraintValidatorContext context) {
 	if (value == null)
 	    return true;
-	for (InsuredExpirienceClass i : invalidTypes)
+	for (final InsuredExpirienceClass i : invalidTypes)
 	    if (i.equals(value))
 		return false;
 	return true;

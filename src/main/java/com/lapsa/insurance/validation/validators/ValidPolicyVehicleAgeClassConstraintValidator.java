@@ -10,11 +10,11 @@ public class ValidPolicyVehicleAgeClassConstraintValidator
 	implements ConstraintValidator<ValidPolicyVehicleAgeClass, VehicleAgeClass> {
 
     @Override
-    public void initialize(ValidPolicyVehicleAgeClass constraintAnnotation) {
+    public void initialize(final ValidPolicyVehicleAgeClass constraintAnnotation) {
     }
 
     @Override
-    public boolean isValid(VehicleAgeClass value, ConstraintValidatorContext context) {
+    public boolean isValid(final VehicleAgeClass value, final ConstraintValidatorContext context) {
 	// no invalid values
 	return true;
     }

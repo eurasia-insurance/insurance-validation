@@ -12,15 +12,15 @@ public class ValidInsuranceAgeClassConstraintValidator
     private InsuredAgeClass[] invalidTypes;
 
     @Override
-    public void initialize(ValidInsuranceAgeClass constraintAnnotation) {
-	this.invalidTypes = constraintAnnotation.invalidValues();
+    public void initialize(final ValidInsuranceAgeClass constraintAnnotation) {
+	invalidTypes = constraintAnnotation.invalidValues();
     }
 
     @Override
-    public boolean isValid(InsuredAgeClass value, ConstraintValidatorContext context) {
+    public boolean isValid(final InsuredAgeClass value, final ConstraintValidatorContext context) {
 	if (value == null)
 	    return true;
-	for (InsuredAgeClass i : invalidTypes)
+	for (final InsuredAgeClass i : invalidTypes)
 	    if (i.equals(value))
 		return false;
 	return true;
