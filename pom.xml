@@ -87,12 +87,6 @@
 			<scope>compile</scope>
 			<optional>false</optional>
 		</dependency>
-		<dependency>
-			<groupId>com.lapsa.lapsa-lib</groupId>
-			<artifactId>lapsa-utils</artifactId>
-			<scope>compile</scope>
-			<optional>false</optional>
-		</dependency>
 		<!-- JavaEE -->
 		<dependency>
 			<groupId>javax.validation</groupId>
