@@ -16,14 +16,14 @@
 
 	<properties>
 		<!-- BOMS -->
-		<javax-javaee-bom.version>7.0a-SNAPSHOT</javax-javaee-bom.version>
-		<payara-bom.version>4.1.2-2-SNAPSHOT</payara-bom.version>
-		<java-commons.version>1.1-SNAPSHOT</java-commons.version>
+		<javax-javaee-bom.version>7.0a</javax-javaee-bom.version>
+		<payara-bom.version>4.1.2-2</payara-bom.version>
+		<java-commons.version>1.1</java-commons.version>
 		<!-- tech -->
-		<javax-validation-commons.version>1.1-SNAPSHOT</javax-validation-commons.version>
-		<lapsa-arquillian-test.version>1.1-SNAPSHOT</lapsa-arquillian-test.version>
+		<javax-validation-commons.version>1.1</javax-validation-commons.version>
+		<lapsa-arquillian-test.version>1.1</lapsa-arquillian-test.version>
 		<!-- oldies -->
-		<insurance-lib.version>2.4-SNAPSHOT</insurance-lib.version>
+		<insurance-lib.version>2.4</insurance-lib.version>
 	</properties>
 
 	<dependencyManagement>
