@@ -9,7 +9,7 @@
 
 	<groupId>tech.lapsa.insurance</groupId>
 	<artifactId>insurance-validation</artifactId>
-	<version>20190113r3</version>
+	<version>CURRENT-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Insurance Lib : Bean validation</name>
@@ -119,7 +119,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/eurasia-insurance/insurance-validation.git</connection>
 		<developerConnection>scm:git:https://github.com/eurasia-insurance/insurance-validation.git</developerConnection>
-		<tag>v20190113r3</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
